@@ -1,0 +1,20 @@
+eureka:
+ client:
+  serviceUrl:
+    defaultZone: http://localhost:8761/eureka/
+server:
+  port: 8763
+spring:
+  application:
+   name: eshop-price-service
+
+
+  datasource:
+   type: com.alibaba.druid.pool.DruidDataSource
+   platform: mysql
+   url: jdbc:mysql://localhost:3306/eshop?useSSL=false
+   username: root
+   password: ljc3323611
+   driver-class-name: com.mysql.cj.jdbc.Driver
+
+
